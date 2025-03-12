@@ -6,7 +6,7 @@ import './header.css';
 import { useState } from "react";
 
 export default function Header(){
-    const [menuActive, setMenuActive] = useState(false); // Стан для меню
+    const [menuActive, setMenuActive] = useState(true); // Стан для меню
 
     const toggleMenu = () => {
         setMenuActive(!menuActive); // Перемикаємо стан
@@ -18,19 +18,19 @@ export default function Header(){
             <header>
                 <div className="logo"></div>
                 <div className={`menu ${menuActive ? "active" : ""}`}>
-                    <div className={`ham-menu ${menuActive ? "active" : ""}`} 
-                        onClick={toggleMenu}
-                    >
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
                     <List navList={navListArr} />
                     <div className="registration-btns">
                         <Button btnName={"вход"} className={"btn-regular btn-transparent"}/>
                         <Button btnName={"регистрация"} className={"btn-regular btn-blue"} />
                     </div>
                 </div>
+                <div className={`ham-menu ${menuActive ? "active" : ""}`} 
+                        onClick={toggleMenu}
+                    >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
             </header>
         </>
     )

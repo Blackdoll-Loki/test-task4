@@ -1,9 +1,14 @@
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-black);
+    position: relative;
+    width: 100%;
+    height: 64px;
     padding: 0 80px;
+    overflow: visible; 
 }
 
 .logo {
@@ -31,12 +36,18 @@ header {
 }
 
 @media  (max-width: 1024px) {
+    header{
+        padding: 0;
+    }
+    .logo{
+        display: none;
+    }
     .menu {
         flex-direction: column;
         align-items: flex-start;
         gap: 0;
         margin-left: 0;
-        padding: 16px;
+        padding: 10px 16px 16px;
         background-color: var(--color-purple);
         max-width: 375px;
         position: fixed;
@@ -49,21 +60,26 @@ header {
     }
 
     .ham-menu{
-        width: 32px;
-        margin-left: auto;
-        position: relative;
-        margin-top: 10px;
+        width: 32px; 
+        height: 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        z-index: 1000;
     }
 
     .ham-menu span {
-        height:2px;
-        width: 30px;
+        width: 30px;  
+        height: 3px;
         background-color: #ffffff;
         border-radius: 25px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         transition: 0.3s ease;
     }
 
@@ -76,14 +92,13 @@ header {
     }
 
     .ham-menu.active span:nth-child(1){
-        top: 50%;
-        transform: translate(-50%, -50%) rotate(45deg);
+        transform: translateY(9px) rotate(45deg);
     }
     .ham-menu.active span:nth-child(2){
         opacity: 0;
     }
     .ham-menu.active span:nth-child(3){
-        transform: translate(-50%, -50%) rotate(-45deg);
+        transform: translateY(-9px) rotate(-45deg);
     }
 
     .registration-btns {
