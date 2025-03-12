@@ -1,0 +1,23 @@
+button {
+    padding: 11px 24px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.btn-regular{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border: transparent;
+}
+
+.btn-blue{
+    color: var(--color-black);
+    background-color: var(--color-blue);
+}
+
+.btn-transparent{   
+    color: var(--color-blue);
+    background: transparent;
+    border: 1px solid #58e1fc;
+}

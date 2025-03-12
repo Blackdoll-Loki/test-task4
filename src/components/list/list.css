@@ -1,0 +1,14 @@
+ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+}
+
+li {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b3b5ba;
+}
