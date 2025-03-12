@@ -1,14 +1,14 @@
 .section-1{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 630px auto;
     align-items: center;
     padding: 160px 133px 166px 80px;
     background-color: var(--color-black);
 }
 
-.section-1-text{
-    max-width: 630px;
-}
+/* .section-1-text{
+    align-self: flex-start;
+} */
 
 .section-1-text h1{
     font-weight: bold;
@@ -76,4 +76,5 @@
     width: 469px;
     height: 209px;
     background: no-repeat url('../../assets/Image1.svg');
+    justify-self: center;
 }
