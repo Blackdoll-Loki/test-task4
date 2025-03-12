@@ -11,7 +11,7 @@ header {
     width: 132px; /* Задай свої розміри */
     height: 64px;
     background-image: url('../../assets/Group35.svg'), url('../../assets/Group36.svg');
-    background-position: top left, top 13px left 52px; 
+    background-position: top left, top 14px left 50px; 
     background-repeat: no-repeat, no-repeat; 
     background-size: contain, 80px 34px; 
 }
