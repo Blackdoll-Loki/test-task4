@@ -12,7 +12,7 @@ export default function Header(){
             <header>
                 <div className="logo"></div>
                 <List navList={navListArr} />
-                <div>
+                <div className="registration-btns">
                     <Button btnName={"вход"} className={"btn-regular btn-transparent"}/>
                     <Button btnName={"регистрация"} className={"btn-regular btn-blue"} />
                 </div>

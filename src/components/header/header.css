@@ -1,7 +1,7 @@
 header {
     padding: 2px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--color-black);
     padding: 0 80px;
@@ -14,4 +14,12 @@ header {
     background-position: top left, top 14px left 50px; 
     background-repeat: no-repeat, no-repeat; 
     background-size: contain, 80px 34px; 
+    margin-right: 47px;
+}
+
+.registration-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }

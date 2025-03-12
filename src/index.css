@@ -3,4 +3,15 @@
   --color-black: #030718;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
 
