@@ -11,6 +11,13 @@ button {
     border: transparent;
 }
 
+.btn-medium{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    border: transparent;
+}
+
 .btn-blue{
     color: var(--color-black);
     background-color: var(--color-blue);

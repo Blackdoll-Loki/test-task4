@@ -1,5 +1,5 @@
 import React from "react";
-import '../section-numbers/sectionNumbers.css'
+import '../sectionTwo/sectionTwo.css';
 import SectionThreeCard from "../section-3-card/SectionThreeCard";
 import './sectionThree.css'
 
@@ -54,7 +54,6 @@ export default function SectionThree(){
                 <div className="section-3-cards">
                     { cardsData.map((obj,idx)=> <SectionThreeCard key={idx} title={obj.title} time={obj.time} profit={obj.profit} percentage={obj.percentage} aim={obj.aim} date={obj.date} /> )}
                 </div>
-                <div className="broken-background"></div>
             </section>
         </>
     )

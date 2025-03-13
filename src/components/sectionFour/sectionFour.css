@@ -1,0 +1,85 @@
+.section4 {
+    padding: 56px 80px 92px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 237px;
+}
+
+.section4 h2 {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: -0.04em;
+    margin-bottom: 40px;
+}
+
+.section4-text-p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-black);
+}
+
+.section4-text-p_first{
+    margin-bottom: 20px;
+}
+
+.section4-text {
+    max-width: 413px;
+}
+
+.form-block {
+    max-width: 630px;
+    padding: 32px 62px 40px 64px;
+    background-color: var(--color-purple);
+    border-radius: 4px;
+    border: transparent;
+}
+
+.section4-form-title{
+    width: 100%;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 32px;
+    text-transform: none;
+}
+
+.section4-form{
+    width: 500px;
+    height: 60px;
+    background-color: #4A3BB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border-color: transparent;
+    padding-right: 4px;
+}
+
+.section4-input{
+    width: 500px;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    padding-left: 16px;
+}
+
+.section4-input::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #897ecd;
+    text-transform: uppercase;
+    padding-left: 16px;
+}
+
+.section4-form-btn{
+    color: var(--color-black);
+    padding: 16px 24px;
+    background-color: #58e1fc;
+}

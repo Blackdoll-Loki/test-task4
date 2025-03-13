@@ -1,6 +1,6 @@
 import React from "react";
 import NumberCard from "../numberCard/NumberCard";
-import './sectionNumbers.css'
+import './sectionTwo.css'
 
 export default function SectionNumbers(){
     const numbersText = [
