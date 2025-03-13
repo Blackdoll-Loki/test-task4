@@ -36,13 +36,21 @@ export default function SectionThree(){
             percentage: '0.963%',
             aim: 'Цель 4',
             date: 'Дата входа 06.10.2022'
-        }
+        },
+        {
+            title: 'NEAR/USDT',
+            time: 'SPOT · 1 мин. назад',
+            profit: 'Прибыль',
+            percentage: '58.6206%',
+            aim: 'Цель 4',
+            date: 'Дата входа 06.10.2022'
+        },
     ]
     return (
         <>
             <section className="section-3">
                 <h2 className="section-heading">Прошедшие сделки</h2>
-                <p className="section-paragraph">Онлайн</p>
+                <p className="section-paragraph section-3-status">Онлайн</p>
                 <div className="section-3-cards">
                     { cardsData.map((obj,idx)=> <SectionThreeCard key={idx} title={obj.title} time={obj.time} profit={obj.profit} percentage={obj.percentage} aim={obj.aim} date={obj.date} /> )}
                 </div>

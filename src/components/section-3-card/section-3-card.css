@@ -1,6 +1,5 @@
 .section-3-card {
     width: 299px;
-    height: 208px;
     padding: 16px;
     background-color: var(--color-purple);
     border-radius: 4px;
@@ -19,11 +18,6 @@
     letter-spacing: -0.04em;
 }
 
-.section-3-card p{
-    color: var(--color-light-purple);
-    font-weight: 500;
-}
-
 .card-profit{
    color: var(--color-superlight-purple);
 }
@@ -34,6 +28,9 @@
     line-height: 36px;
     letter-spacing: -0.02em;
     color: var(--color-green);
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
 }
 
 .bottom-text{
@@ -42,11 +39,11 @@
     align-items: center;
 }
 
-.bottom-text:first-child {
+.section-3-card-aim {
     font-weight: 500;
     color: var(--color-superlight-purple);
 }
-.bottom-text:last-child {
+.section-3-card-date {
     font-weight: 400;
     color: var(--color-light-purple);
 }
@@ -55,6 +52,30 @@
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.02em;
+}
+
+.section-3-card-time{
+    font-weight: 500;
+    margin-bottom: 48px;
+    color: var(--color-light-purple);
+}
+
+.card-profit{
+    margin-bottom: 2px;
+    color: var(--color-superlight-purple);
+    text-transform: uppercase;
+}
+
+
+.card-percent-arrow {
+    display: inline-block;
+    width: 13px;
+    height: 36px;
+    background-image: url(../../assets/Arrow.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 13px 36px;
+    margin-left: 6px;
 }
 
 .folded-square {
