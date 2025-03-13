@@ -1,0 +1,69 @@
+.section-3-card {
+    width: 299px;
+    height: 208px;
+    padding: 16px;
+    background-color: var(--color-purple);
+    border-radius: 4px;
+    background-image: url('../../assets/CroppedLogo.svg');
+    background-repeat: no-repeat;
+    background-position: top 8px right 0;
+    background-size: 41% 80%;
+    position: relative;
+}
+
+.section-3-card h3 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.04em;
+}
+
+.section-3-card p{
+    color: var(--color-light-purple);
+    font-weight: 500;
+}
+
+.card-profit{
+   color: var(--color-superlight-purple);
+}
+
+.card-percent{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: var(--color-green);
+}
+
+.bottom-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-text:first-child {
+    font-weight: 500;
+    color: var(--color-superlight-purple);
+}
+.bottom-text:last-child {
+    font-weight: 400;
+    color: var(--color-light-purple);
+}
+
+.smaller-text{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+}
+
+.folded-square {
+    width: 45px;
+    height: 45px; 
+    background-color: transparent;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background-color: var(--color-black);
+    clip-path: polygon(0 0, 100% 0, 100% 100%); 
+}

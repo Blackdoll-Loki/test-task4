@@ -22,11 +22,11 @@ export default function SectionNumbers(){
     return (
         <>
         <section>
-            <div class="broken-background"></div>
+            <div className="broken-background"></div>
             <div className="numbbers-section">
                 <div className="numbers-text">
-                    <h2>Цифры</h2>
-                    <p>Cентябрь 2022</p>
+                    <h2 className="section-heading">Цифры</h2>
+                    <p className="section-paragraph">Cентябрь 2022</p>
                 </div>
                 <div className="numbers-cards">
                     { numbersText.map((obj, idx) =>  <NumberCard key={idx} heading={obj.heading} paragraph={obj.paragraph} />  ) }
